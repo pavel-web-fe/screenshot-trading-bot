@@ -75,10 +75,31 @@ Also works with:
 
 ---
 
-## 📦 Installation
 
-### 1️⃣ Install Python
+## 📦 Installation & Run
+
+### Install Python
 Download from:  
 https://www.python.org/downloads/
 
-During installation, make sure to enable:
+### Run 
+### Installation & Run (Windows)
+
+1. Download the project archive and extract it to any folder.
+
+2. Open `bot.py` and insert your **OpenRouter API key**  
+   (or set it via environment variable).
+
+3. Open **Windows PowerShell as Administrator**.
+
+4. Install required dependencies:
+```bash
+pip install requests pyautogui keyboard pillow
+```
+
+5. Run the bot:
+```bash
+python bot.py
+```
+
+
